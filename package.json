@@ -1,5 +1,11 @@
 {
   "name": "@gerblins/hobgerblin",
+  "description": "Hobgerblin is a server for easing automated backups across multiple server",
+  "homepage": "https://github.com/gerblins/hobgerblin#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gerblins/hobgerblin"
+  },
   "version": "0.1.0",
   "main": "src/index.js",
   "license": "AGPL-3.0-only",
