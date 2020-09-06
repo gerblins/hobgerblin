@@ -6,8 +6,8 @@
     "type": "git",
     "url": "https://github.com/gerblins/hobgerblin"
   },
-  "version": "0.1.0",
-  "main": "src/index.js",
+  "version": "0.1.1",
+  "main": "src/index.ts",
   "license": "AGPL-3.0-only",
   "scripts": {
     "run": "node dist/index.js",
@@ -33,6 +33,7 @@
     "aws-sdk": "^2.747.0",
     "js-yaml": "^3.14.0",
     "koa": "^2.13.0",
-    "koa-router": "^9.4.0"
+    "koa-router": "^9.4.0",
+    "winston": "^3.3.3"
   }
 }
