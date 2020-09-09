@@ -63,5 +63,5 @@ To backup a file simply POST a file to `http(s)://{{server_name}}/backup/{{key}}
 
 ```sh
 #!/bin/sh
-curl -X POST -d @backup.tar https://localhost:8443/backup/testfs/backup.tar
+curl -X POST --data-binary @backup.tar https://localhost:8443/backup/testfs/backup.tar
 ```
